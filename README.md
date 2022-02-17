@@ -1,1 +1,7 @@
-# mono2micro
+# Mono2Micro by Example
+
+
+1. Clone the sample app git repo
+```
+git clone https://github.com/nheidloff/application-modernization-javaee-quarkus.git && cd application-modernization-javaee-quarkus $ ROOT_FOLDER=$(pwd)
+```
