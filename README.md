@@ -32,3 +32,13 @@ sh ${ROOT_FOLDER}/scripts-docker/build-and-run-splitted-frontend-open-klu.sh
   
 Reference:  
 http://heidloff.net/article/step-by-step-instructions-mono2micro/
+
+### Docker Compose Troubleshoot  
+
+ImportError: cannot import name IPAMConfig  
+```
+pip uninstall docker
+pip uninstall docker-py
+pip uninstall docker-compose
+pip install docker-compose==1.9.0
+```
