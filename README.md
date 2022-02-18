@@ -9,6 +9,7 @@ git clone https://github.com/nheidloff/application-modernization-javaee-quarkus.
    Files to download:  
   * https://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/mono2micro/Mono2Micro-Monolith-DataCollector.zip  
   * https://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/mono2micro/Mono2Micro-Example.zip  
+  Unzip the files  
 3. Pull the mono2micro docker files
 ```
 docker pull ibmcom/mono2micro-bluejay	
