@@ -24,6 +24,11 @@ docker run -e LICENSE=accept --rm -it -v ${ROOT_FOLDER}/:/var/application ibmcom
 cp ${ROOT_FOLDER}/monolith-open-liberty-klu/refTable.json ${ROOT_FOLDER}/mono2micro/output/tables
 cp ${ROOT_FOLDER}/monolith-open-liberty-klu/symTable.json ${ROOT_FOLDER}/mono2micro/output/tables
 ```
+5. launch your application with the modified source code.  
+```
+sh ${ROOT_FOLDER}/scripts-docker/build-and-run-monolith-db2.sh
+sh ${ROOT_FOLDER}/scripts-docker/build-and-run-splitted-frontend-open-klu.sh
+```
   
 Reference:  
 http://heidloff.net/article/step-by-step-instructions-mono2micro/
